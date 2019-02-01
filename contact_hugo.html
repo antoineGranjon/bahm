@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+	<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Contact</title>
+		<link rel="icon" href="images/logo.png">
+		<meta name="description" content="Page contact hugo" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body class="bg-light">
+		<header class="fond container-fluid row no-gutters justify-content-between">
+                <div class="col-md-4 order-md-last ">
+                    <img class="rounded-circle p-2 img-responsive" src='images/profil_Hugo.jpg' alt="Photo de profil de nom prénom"/>
+                </div>
+                <div class="flex-column">
+                    <h1 class="p-2">Pour me contacter</h1>
+                </div>
+        </header>
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-nav sticky-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link mr-5" href="equipe.html">←Retour à l'équipe |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cv_hugo.html">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hobby_hugo.html">Hobby</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="video_hugo.html">Video</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact_hugo.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+		<main class="container mt-4">
+
+			<h2 class="text-center mb-3">C'est par ici !</h2>
+				<section class="row justify-content-center">
+			        <form class="text-center" action="https://httpbin.org/post" method="post">
+			            <div class="form-group">
+			                <label class="zonetexte" for="nom">Nom</label>
+			                <input type="text" id="nom" name="nom_internaute" class="form-control" placeholder="Jean DUPONT" required>
+			            </div>
+			            <div class="form-group">
+			                <label class="zonetexte" for="mail">e-mail :</label>
+			                <input type="email" id="mail" name="mail_internaute" class="form-control" placeholder="jeandupont@messagerie.com" required>
+			            </div>
+			            <div class="form-group"> 
+			                <label class="zonetexte" for="message">Message : </label>
+			                <textarea id="message" name="message_internaute" class="form-control" placeholder="Tapez votre message..." required> </textarea>
+			            </div>
+			            <div class="container text-center" id="sondage">
+			                Vous êtes :
+			                <div class="row justify-content-center">
+			                    <table class="container" id="choix_multiple">
+			                        <tr>
+			                            <td><input type="radio" id="choix1" name="sondage" value="Oui"></td>
+			                            <td><label for="choix1">Un professionnel</label></td>
+			                        </tr>
+			                        <tr>
+			                            <td><input type="radio" id="choix2" name="sondage" value="Non"></td>
+			                            <td><label for="choix2">Un particulier</label></td>
+			                        </tr>
+			                    </table>
+			                </div>
+			            </div>
+			            <div>
+			                <br>
+			                <label for="select" id="question">Vous souhaitez :</label>
+			                <div>
+			                    <select id="select" name="qui_etes_vous">
+			                        <option id="entreprise">Prendre un RDV</option>
+			                        <option id="particulier">Etablir un devis</option>
+			                        <option id="autre">Un renseignement</option>
+			                    </select>
+			                </div>
+			            </div>
+			            <br>
+			            <button type="submit" id="envoyer">Envoyer</button>
+			        </form>
+		       </section>
+	        <br>
+		</main>
+
+	<footer class="row mt-5 no-gutters justify-content-center flex-column align-items-center text-center pt-3 bg-blue text-white">
+        <div class="d-none d-sm-block">
+           	<img  src="images/logo.png" width="124" height="124" alt="logo entreprise BAHM">
+      	</div>
+        <p class="mt-3">
+            33 grande rue - 26000 Valence - 04 75 52 98 34
+        </p>
+    </footer>
+		
+	</body>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	</html>

@@ -1,0 +1,65 @@
+header {
+	color: #224065;
+}
+
+footer.bg-blue {
+	background-color: #224065;
+}
+
+.bg-nav {
+	background-color: #c1eaef;
+}
+
+html{
+	position: relative;
+	min-height: 100%;
+}
+
+footer {
+	border-top: 4px solid #c1eaef;
+	height: 200px;
+	position: absolute;
+	bottom:0;
+	width: 100%;
+}
+
+body{
+	margin-bottom:200px;
+}
+
+ul.liste-avec-triangle li {
+	list-style-image: url("images/fleche.png");
+}
+
+.titre {
+	background-color: #224065;
+	color: white;
+}
+
+.fond {
+	background-image: url("images/fond_header.jpg");
+	background-repeat: repeat;
+}
+
+header p {
+	margin: 0;
+}
+
+header address a {
+	color: #224065;
+}
+
+header address {
+	margin: 0;
+}
+
+.fondaccueil {
+	background-image: url("images/fond-ecran-valence-2.jpg");
+	min-height: 710px;
+	background-size: cover;
+	background-position: center;
+}
+
+.foot{
+	font-size: 0.8vw;
+}

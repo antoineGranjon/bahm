@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!-- modifié "en" en "fr" -->
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<meta name="description" content="CV en ligne Benjamin Dechêne" />
+	<meta name="viewport" content="width=device-width, initial-scale=1,">
+	<link rel="icon" href="images/logo.png">
+	<title>BAHM - CV Benjamin Dechêne</title>
+</head>
+
+<body class="bg-light">
+	<header class="fond container-fluid row no-gutters justify-content-between">
+		<div class="col-md-4 order-md-last text-center text-md-right">
+			<img class="rounded-circle p-2 img-responsive mw-100" src='images/profil_Benjamin.jpg' alt="Photo de profil de Benjamin Dechêne" />
+		</div>
+		<div class="flex-column pl-2 pt-3">
+			<h1>Benjamin Dechêne</h1>
+			<h4>Technicien développeur junior</h4>
+			<p>40 chemin de ronde<br>
+				26600 Valence<br>
+				06 23 07 20 30</p>
+			<address>
+				<a href="mailto:benjidechene@hotmail.com">benjidechene@hotmail.com</a>
+			</address>
+		</div>
+	</header>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-nav sticky-top">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+		 aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<!-- pour centrer la nav : mettre justify-content-center dans la classe de la div -->
+		<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link mr-5" href="equipe.html">←Retour à l'équipe |</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="cv_benjamin.html">CV</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="hobby_benjamin.html">Hobby</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="video_benjamin.html">Video</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact_benjamin.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container-fluid row no gutters mt-5">
+		<aside class="col-md-4">
+			<article class="border border-info py-3 px-3 mb-2">
+				<h3>A propos de moi</h3>
+				<p><em>
+			Nouvel arrivant dans la Drôme je souhaite me reconvertir et apprendre un nouveau métiér. Mon expérience de plus de quinze années dans le commerce pour des enseignes comme <b>IKEA</b> ou <b>INTERSPORT</b>, et mon désir de m'investir sont les atouts que je souhaite mettre à profit au sein de votre entreprise.</em></p>
+		
+			</article>
+			<section class="competences">
+				<h3 class="titre pt-1 pl-1 text-center">Compétences</h3>
+				<!-- py : padding haut bas -->
+				<div class="row py-1">
+					<!-- m : margin en haut bas droite gauche -->
+					
+					<div class="col m-3">
+						<h4>Compétences personnelles</h4>
+						<ul class="list-unstyled liste-avec-triangle">
+							<li>Dynamique</li>
+							<li>Sens du détail</li>
+							<li>Bon contact client</li>
+						</ul>
+					</div>
+					
+
+					<div class="col m-3">
+						<h4>Bureautique</h4>
+						<ul class="liste-avec-triangle">
+							<li>Word</li>
+							<li>Excel</li>
+							<li>Powerpoint</li>
+						</ul>
+					</div>
+
+					<div class="col m-3">
+						<h4>Langues</h4>
+						<ul class="liste-avec-triangle">
+							<li>Anglais : bonnes notions</li>
+							<li>Espagnol : bon niveau</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="interets">
+				<h3 class="titre pt-1 pl-1 text-center">Centres d'intérêts</h3>
+				<ul class="list-unstyled text-center ">
+					<li>Gastronomie</li>
+					<li>Voyage</li>
+					<li>Sport</li>
+					<li>Musique</li>
+					<li>Cinéma</li>
+				</ul>
+			</section>
+
+		</aside>
+		<main class="col-md-8">
+			<div class="text-center">
+				<!-- modif : formation au lieu de exp pro -->
+				<h2 class="titre pt-1 pl-1">Formation</h2>
+				<div class="table-responsive">
+					<table class="table table-hover">
+						<thead>
+							<tr>
+								<!-- besoin que de 3 th : Diplome, lieu, année -->
+								<th scope="col">Diplômes</th>
+								<th scope="col">Lieux</th>
+								<th scope="col">Années</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<!-- idem : 3 td car 3 th -->
+								<td>Formation développement web</td>
+								<td>Campus Numérique in the Alps, Valence (26)</td>
+								<td>2018 - 2019</td>
+							</tr>
+							<tr>
+								<td>Baccalauréat professionnel commerceISCB,Tours (37)</td>
+								<td>ISCB,Tours (37)</td>
+								<td>2000 - 2002</td>
+							</tr>
+							<tr>
+								<td>CAP/BEP vente</td>
+								<td>Lycée saint Vincent de Paul Tours (37)</td>
+								<td>1999 - 2000</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class=" text-center mt-5">
+				<h2 class="titre pt-1 pl-1">Expériences</h2>
+				<div class="table-responsive">
+					<table class="table table-hover">
+						<thead>
+							<tr>
+								<th scope="col">Titres</th>
+								<th scope="col">Périodes</th>
+								<th scope="col">Entreprises</th>
+								<th scope="col">Tâches</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Vendeur salle de bain</td>
+								<td>2015 - 2018</td>
+								<td>IKEA TOURS</td>
+								<td>Accompagnement des clients sur l'utilisation du logiciel de conception salle de bain.
+												Interface service logistique et autres services.
+											Saisie côtes et validation plans. Animation des réseaux sociaux (facebook et yammer).</td>
+							<tr>
+								<td>Vendeur cuisine<br>
+								<td>2012 - 2015</td>
+								<td>IKEA TOURS</td>
+								<td>Accompagnement des clients sur l'utilisation du logiciel de conception cuisine.
+												Edition de bons de ventes et de livraisons.
+												Accueil des collègues nouveaux arrivants.
+											Mise en places d'opérations commerciales (anticipation,préparation).</td>
+							</tr>
+							<tr>
+								<td>Vendeur salon</td>
+								<td>2008 - 2012</td>
+								<td>IKEA TOURS</td>
+								<td>Vendeur salon: Accueil clients, écoute de la demande, orientation vers le rayon.
+												Informations, renseignements et conseils sur les produits.
+												Suivi des résultats.Formateur régional grand ouest salon.</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</main>
+	</div>
+
+	<footer class="row mt-5 no-gutters justify-content-center flex-column align-items-center text-center pt-3 bg-blue text-white">
+        <div class="d-none d-sm-block">
+           	<img  src="images/logo.png" width="124" height="124" alt="logo entreprise BAHM">
+      	</div>
+        <p class="mt-3">
+            33 grande rue - 26000 Valence - 04 75 52 98 34
+        </p>
+    </footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+	 crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+	 crossorigin="anonymous"></script>
+
+</body>
+
+</html>
